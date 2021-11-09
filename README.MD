@@ -49,19 +49,11 @@ Get the source files from this github repository (https://github.com/llh9/Team-P
     
 Open the command line interface in the IDE and type in the command "node index.js". Afterwards, a series of questions will be presrnted to the user (you) at which time you are to fill in the information about yourself (the manager of a development team). Then you will be asked to choose the type of employee that you will hire next. Either the team member or you can enter the information for this additional employee. This process is repeated untill the entire team's information has been recorde at which time the manager selects the done option form the options list. When you select the done option, the application uses the infomation to build a web page containing profiles for each of the team members who recorded their information. Throughout the process, previews of the recorded information is presented to the user via the command line so that you can verify the provided information is correct.
     
-## [Walkthrough Video](https://watch.screencastify.com/v/U2QpCko7skGyMEGyo3ZA)
+## [Walkthrough Video](https://watch.screencastify.com/v/Go5noiMvoTSbXNTxSbFR)
     
-### [Demo Screenshot 1](#demo-screenshot-1)
+### [Demo Screenshot](#demo-screenshot-1)
     
-![screenshot demo ](./SS1.PNG)
-    
-### [Demo Screenshot 2](#demo-screenshot-2)
-    
-![screenshot demo](./SS2.PNG)
-    
-### [Demo Screenshot 3](#demo-screenshot-3)
-    
-![screenshot demo](./SS3.PNG)
+![screenshot demo ](./assets/images/Profile-Generator-Screenshot.PNG)
     
 ## [Test](#test)
     
