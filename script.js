@@ -44,126 +44,8 @@ var mgrCard = $('<div>');    //card
     var Role = $('<p>');      //card-text
     var Nfo = $('<ul>');      //list-group list-group-flush
     var Id = $('<li>');       //list-group-item
-    var Email = $('<li>');    //list-group-item
-    var School = $('<li>');   //list-group-item
-    
-    Card.attr('class','card');
-    Card.attr('style', 'width: 18rem;')
-    Img.addClass('card-img-top');
-    Img.attr('alt', 'PIC');
-    Img.attr('src', '../assets/images/intern.png');
-    CBody.addClass('card-Body');
-    Name.addClass('card-title');
-    Role.addClass('card-text');
-    Nfo.addClass('list-group list-group-flush');
-    Id.addClass('list-group-item');
-    Email.addClass('list-group-item');
-    School.addClass('list-group-item');
-    
-    
-    Name.text('MHinkle'); 
-    Role.text('Intern');
-    Id.text('01');
-    Email.text('Frank@gmail.com');
-    School.text('OSU');
-    
-    var main = $('#main');
-    main.append(Card);
-    Card.append(Img);
-    Card.append(CBody);
-    Card.append(Nfo);
-    CBody.append(Name);
-    CBody.append(Role);
-    Nfo.append(Id);
-    Nfo.append(Email);
-    Nfo.append(School);var Card = $('<div>');    //card
-    
-    var Img = $('<img>');     //card-img-top
-    var CBody = $('<div>');   //card-body
-    var Name = $('<h5>');     //card-title
-    var Role = $('<p>');      //card-text
-    var Nfo = $('<ul>');      //list-group list-group-flush
-    var Id = $('<li>');       //list-group-item
-    var Email = $('<li>');    //list-group-item
-    var Github = $('<li>');   //list-group-item
-    
-    Card.attr('class','card');
-    Card.attr('style', 'width: 18rem;')
-    Img.addClass('card-img-top');
-    Img.attr('alt', 'PIC');
-    Img.attr('src', '../assets/images/engineer.png');
-    CBody.addClass('card-Body');
-    Name.addClass('card-title');
-    Role.addClass('card-text');
-    Nfo.addClass('list-group list-group-flush');
-    Id.addClass('list-group-item');
-    Email.addClass('list-group-item');
-    Github.addClass('list-group-item');
-    
-    
-    Name.text('Landon Hinkle'); 
-    Role.text('Engineer');
-    Id.text('02');
-    Email.text('Landon@email.com');
-    Github.text('Landon@github.com');
-    
-    var main = $('#main');
-    main.append(Card);
-    Card.append(Img);
-    Card.append(CBody);
-    Card.append(Nfo);
-    CBody.append(Name);
-    CBody.append(Role);
-    Nfo.append(Id);
-    Nfo.append(Email);
-    Nfo.append(Github);var Card = $('<div>');    //card
-    var Img = $('<img>');     //card-img-top
-    var CBody = $('<div>');   //card-body
-    var Name = $('<h5>');     //card-title
-    var Role = $('<p>');      //card-text
-    var Nfo = $('<ul>');      //list-group list-group-flush
-    var Id = $('<li>');       //list-group-item
-    var Email = $('<li>');    //list-group-item
-    var School = $('<li>');   //list-group-item
-    
-    Card.attr('class','card');
-    Card.attr('style', 'width: 18rem;')
-    Img.addClass('card-img-top');
-    Img.attr('alt', 'PIC');
-    Img.attr('src', '../assets/images/intern.png');
-    CBody.addClass('card-Body');
-    Name.addClass('card-title');
-    Role.addClass('card-text');
-    Nfo.addClass('list-group list-group-flush');
-    Id.addClass('list-group-item');
-    Email.addClass('list-group-item');
-    School.addClass('list-group-item');
-    
-    
-    Name.text('Jacob'); 
-    Role.text('Intern');
-    Id.text('03');
-    Email.text('MH@email.com');
-    School.text('OSU');
-    
-    var main = $('#main');
-    main.append(Card);
-    Card.append(Img);
-    Card.append(CBody);
-    Card.append(Nfo);
-    CBody.append(Name);
-    CBody.append(Role);
-    Nfo.append(Id);
-    Nfo.append(Email);
-    Nfo.append(School);var Card = $('<div>');    //card
-    var Img = $('<img>');     //card-img-top
-    var CBody = $('<div>');   //card-body
-    var Name = $('<h5>');     //card-title
-    var Role = $('<p>');      //card-text
-    var Nfo = $('<ul>');      //list-group list-group-flush
-    var Id = $('<li>');       //list-group-item
-    var Email = $('<li>');    //list-group-item
-    var Github = $('<li>');   //list-group-item
+    var Email = $('<a>');    //list-group-item
+    var Github = $('<a>');   //list-group-item
     
     Card.attr('class','card');
     Card.attr('style', 'width: 18rem;')
@@ -184,6 +66,175 @@ var mgrCard = $('<div>');    //card
     Id.text('00');
     Email.text('fred@gmail.com');
     Github.text('00');
+
+    Email.attr('href', 'fred@gmail.com');
+    Github.attr('href', 'fred@gmail.com');
+    
+    var main = $('#main');
+    main.append(Card);
+    Card.append(Img);
+    Card.append(CBody);
+    Card.append(Nfo);
+    CBody.append(Name);
+    CBody.append(Role);
+    Nfo.append(Id);
+    Nfo.append(Email);
+    Nfo.append(Github);var Card = $('<div>');    //card
+    var Img = $('<img>');     //card-img-top
+    var CBody = $('<div>');   //card-body
+    var Name = $('<h5>');     //card-title
+    var Role = $('<p>');      //card-text
+    var Nfo = $('<ul>');      //list-group list-group-flush
+    var Id = $('<li>');       //list-group-item
+    var Email = $('<a>');    //list-group-item
+    var School = $('<li>');   //list-group-item
+    
+    Card.attr('class','card');
+    Card.attr('style', 'width: 18rem;')
+    Img.addClass('card-img-top');
+    Img.attr('alt', 'PIC');
+    Img.attr('src', '../assets/images/intern.png');
+    CBody.addClass('card-Body');
+    Name.addClass('card-title');
+    Role.addClass('card-text');
+    Nfo.addClass('list-group list-group-flush');
+    Id.addClass('list-group-item');
+    Email.addClass('list-group-item');
+    School.addClass('list-group-item');
+    
+    
+    Name.text('Frank'); 
+    Role.text('Intern');
+    Id.text('01');
+    Email.text('Frank@gmail.com');
+    School.text('OSU');
+
+    Email.attr('href', 'Frank@gmail.com');
+    
+    var main = $('#main');
+    main.append(Card);
+    Card.append(Img);
+    Card.append(CBody);
+    Card.append(Nfo);
+    CBody.append(Name);
+    CBody.append(Role);
+    Nfo.append(Id);
+    Nfo.append(Email);
+    Nfo.append(School);var Card = $('<div>');    //card
+    var Img = $('<img>');     //card-img-top
+    var CBody = $('<div>');   //card-body
+    var Name = $('<h5>');     //card-title
+    var Role = $('<p>');      //card-text
+    var Nfo = $('<ul>');      //list-group list-group-flush
+    var Id = $('<li>');       //list-group-item
+    var Email = $('<a>');    //list-group-item
+    var Github = $('<a>');   //list-group-item
+    
+    Card.attr('class','card');
+    Card.attr('style', 'width: 18rem;')
+    Img.addClass('card-img-top');
+    Img.attr('alt', 'PIC');
+    Img.attr('src', '../assets/images/engineer.png');
+    CBody.addClass('card-Body');
+    Name.addClass('card-title');
+    Role.addClass('card-text');
+    Nfo.addClass('list-group list-group-flush');
+    Id.addClass('list-group-item');
+    Email.addClass('list-group-item');
+    Github.addClass('list-group-item');
+    
+    
+    Name.text('Eddie'); 
+    Role.text('Engineer');
+    Id.text('03');
+    Email.text('Ed@gmail.com');
+    Github.text('@github');
+
+    Email.attr('href', 'Ed@gmail.com');
+    Github.attr('href', 'Ed@gmail.com');
+    
+    var main = $('#main');
+    main.append(Card);
+    Card.append(Img);
+    Card.append(CBody);
+    Card.append(Nfo);
+    CBody.append(Name);
+    CBody.append(Role);
+    Nfo.append(Id);
+    Nfo.append(Email);
+    Nfo.append(Github);var Card = $('<div>');    //card
+    var Img = $('<img>');     //card-img-top
+    var CBody = $('<div>');   //card-body
+    var Name = $('<h5>');     //card-title
+    var Role = $('<p>');      //card-text
+    var Nfo = $('<ul>');      //list-group list-group-flush
+    var Id = $('<li>');       //list-group-item
+    var Email = $('<a>');    //list-group-item
+    var School = $('<li>');   //list-group-item
+    
+    Card.attr('class','card');
+    Card.attr('style', 'width: 18rem;')
+    Img.addClass('card-img-top');
+    Img.attr('alt', 'PIC');
+    Img.attr('src', '../assets/images/intern.png');
+    CBody.addClass('card-Body');
+    Name.addClass('card-title');
+    Role.addClass('card-text');
+    Nfo.addClass('list-group list-group-flush');
+    Id.addClass('list-group-item');
+    Email.addClass('list-group-item');
+    School.addClass('list-group-item');
+    
+    
+    Name.text('Frank'); 
+    Role.text('Intern');
+    Id.text('02');
+    Email.text('Frank@gmail.com');
+    School.text('OSU');
+
+    Email.attr('href', 'Frank@gmail.com');
+    
+    var main = $('#main');
+    main.append(Card);
+    Card.append(Img);
+    Card.append(CBody);
+    Card.append(Nfo);
+    CBody.append(Name);
+    CBody.append(Role);
+    Nfo.append(Id);
+    Nfo.append(Email);
+    Nfo.append(School);var Card = $('<div>');    //card
+    var Img = $('<img>');     //card-img-top
+    var CBody = $('<div>');   //card-body
+    var Name = $('<h5>');     //card-title
+    var Role = $('<p>');      //card-text
+    var Nfo = $('<ul>');      //list-group list-group-flush
+    var Id = $('<li>');       //list-group-item
+    var Email = $('<a>');    //list-group-item
+    var Github = $('<a>');   //list-group-item
+    
+    Card.attr('class','card');
+    Card.attr('style', 'width: 18rem;')
+    Img.addClass('card-img-top');
+    Img.attr('alt', 'PIC');
+    Img.attr('src', '../assets/images/engineer.png');
+    CBody.addClass('card-Body');
+    Name.addClass('card-title');
+    Role.addClass('card-text');
+    Nfo.addClass('list-group list-group-flush');
+    Id.addClass('list-group-item');
+    Email.addClass('list-group-item');
+    Github.addClass('list-group-item');
+    
+    
+    Name.text('Landon'); 
+    Role.text('Engineer');
+    Id.text('04');
+    Email.text('llh9@yahoo.com');
+    Github.text('github.com/llh9');
+
+    Email.attr('href', 'llh9@yahoo.com');
+    Github.attr('href', 'llh9@yahoo.com');
     
     var main = $('#main');
     main.append(Card);

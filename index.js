@@ -200,7 +200,7 @@ async function distributeManager(Manager) {
     var mgrRole = $('<p>');      //card-text
     var mgrNfo = $('<ul>');      //list-group list-group-flush
     var mgrId = $('<li>');       //list-group-item
-    var mgrEmail = $('<li>');    //list-group-item
+    var mgrEmail = $('<a>');    //list-group-item
     var mgrOffNum = $('<li>');   //list-group-item
     
     mgrCard.attr('class','card');
@@ -222,6 +222,8 @@ async function distributeManager(Manager) {
     mgrId.text('${Manager.getId()}');
     mgrEmail.text('${Manager.getEmail()}');
     mgrOffNum.text('${Manager.getOfficeNumber()}');
+
+    mgrEmail.attr('href', '${Manager.getEmail()}');
     
     var main = $('#main');
     main.append(mgrCard);
@@ -249,8 +251,8 @@ async function distributeEngineer(Engineer) {
     var Role = $('<p>');      //card-text
     var Nfo = $('<ul>');      //list-group list-group-flush
     var Id = $('<li>');       //list-group-item
-    var Email = $('<li>');    //list-group-item
-    var Github = $('<li>');   //list-group-item
+    var Email = $('<a>');    //list-group-item
+    var Github = $('<a>');   //list-group-item
     
     Card.attr('class','card');
     Card.attr('style', 'width: 18rem;')
@@ -271,6 +273,9 @@ async function distributeEngineer(Engineer) {
     Id.text('${Engineer.getId()}');
     Email.text('${Engineer.getEmail()}');
     Github.text('${Engineer.getGithub()}');
+
+    Email.attr('href', '${Engineer.getEmail()}');
+    Github.attr('href', '${Engineer.getEmail()}');
     
     var main = $('#main');
     main.append(Card);
@@ -299,7 +304,7 @@ async function distributeIntern(Intern) {
     var Role = $('<p>');      //card-text
     var Nfo = $('<ul>');      //list-group list-group-flush
     var Id = $('<li>');       //list-group-item
-    var Email = $('<li>');    //list-group-item
+    var Email = $('<a>');    //list-group-item
     var School = $('<li>');   //list-group-item
     
     Card.attr('class','card');
@@ -321,6 +326,8 @@ async function distributeIntern(Intern) {
     Id.text('${Intern.getId()}');
     Email.text('${Intern.getEmail()}');
     School.text('${Intern.getSchool()}');
+
+    Email.attr('href', '${Intern.getEmail()}');
     
     var main = $('#main');
     main.append(Card);
@@ -338,5 +345,4 @@ async function distributeIntern(Intern) {
     }
     )
 }
-
 managerInformation();   
